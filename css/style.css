@@ -44,13 +44,13 @@ nav.mobile-menu {
   background-size: 100% 100%;
 }
 
-nav.mobile-menu:hover ul {
+/* nav.mobile-menu:hover ul {
   opacity: 1;
-}
+} */
 
 nav.mobile-menu ul {
-  opacity: 0;
-  transition: 1s;
+  display: none;
+  /* transition: 1s; */
   background-color: white;
   position: absolute;
   width: 100%;
