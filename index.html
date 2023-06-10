@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/a63547dbd3.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -101,59 +105,90 @@
       <div class="part2">
         <div class="scrollEquipe">
           <div class="scroll-wraper">
-        <div class="sobre-autor">
-          <div class="titulo-autor">
-            <div class="wraper-titulo-autor">
-              <h2>Guilherme Grillo</h2>
-              <p>Co-Founder / Desenvolvedor</p>
-            </div><!--wraper-titulo-autor-->
-            <div class="img-autor"></div>
-          </div><!--titulo-autor-->
-          <div class="texto-autor">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-              ratione iure, perspiciatis fugiat suscipit harum molestiae?
-            </p>
-          </div><!--texto-autor-->
-        </div><!--sobre-autor-->
-        <div class="sobre-autor">
-          <div class="titulo-autor">
-            <div class="wraper-titulo-autor">
-              <h2>Guilherme Grillo</h2>
-              <p>Co-Founder / Desenvolvedor</p>
-            </div><!--wraper-titulo-autor-->
-            <div class="img-autor"></div>
-          </div><!--titulo-autor-->
-          <div class="texto-autor">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-              ratione iure, perspiciatis fugiat suscipit harum molestiae?
-            </p>
-          </div><!--texto-autor-->
-        </div><!--sobre-autor-->
-        <div class="sobre-autor">
-          <div class="titulo-autor">
-            <div class="wraper-titulo-autor">
-              <h2>Guilherme Grillo</h2>
-              <p>Co-Founder / Desenvolvedor</p>
-            </div><!--wraper-titulo-autor-->
-            <div class="img-autor"></div>
-          </div><!--titulo-autor-->
-          <div class="texto-autor">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
-              ratione iure, perspiciatis fugiat suscipit harum molestiae?
-            </p>
-          </div><!--texto-autor-->
-        </div><!--sobre-autor-->
-      </div><!--scroll-wraper-->
-      </div><!--scrollEquipe-->
-        <div class="slider-bullets">
-          
-        </div><!--slider-bullets-->
+            <div class="sobre-autor">
+              <div class="titulo-autor">
+                <div class="wraper-titulo-autor">
+                  <h2>Guilherme Grillo</h2>
+                  <p>Co-Founder / Desenvolvedor</p>
+                </div><!--wraper-titulo-autor-->
+                <div class="img-autor"></div>
+              </div><!--titulo-autor-->
+              <div class="texto-autor">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  ratione iure, perspiciatis fugiat suscipit harum molestiae?
+                </p>
+              </div><!--texto-autor-->
+            </div><!--sobre-autor-->
+            <div class="sobre-autor">
+              <div class="titulo-autor">
+                <div class="wraper-titulo-autor">
+                  <h2>Guilherme Grillo</h2>
+                  <p>Co-Founder / Desenvolvedor</p>
+                </div><!--wraper-titulo-autor-->
+                <div class="img-autor"></div>
+              </div><!--titulo-autor-->
+              <div class="texto-autor">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  ratione iure, perspiciatis fugiat suscipit harum molestiae?
+                </p>
+              </div><!--texto-autor-->
+            </div><!--sobre-autor-->
+            <div class="sobre-autor">
+              <div class="titulo-autor">
+                <div class="wraper-titulo-autor">
+                  <h2>Guilherme Grillo</h2>
+                  <p>Co-Founder / Desenvolvedor</p>
+                </div><!--wraper-titulo-autor-->
+                <div class="img-autor"></div>
+              </div><!--titulo-autor-->
+              <div class="texto-autor">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+                  ratione iure, perspiciatis fugiat suscipit harum molestiae?
+                </p>
+              </div><!--texto-autor-->
+            </div><!--sobre-autor-->
+          </div><!--scroll-wraper-->
+        </div><!--scrollEquipe-->
+        <div class="slider-bullets"></div><!--slider-bullets-->
       </div><!--part2-->
       <div class="clear"></div>
     </section><!--sessao3-->
+
+    <section class="diferenciais">
+      <div class="container">
+        <h2>Diferenciais</h2>
+
+        <div class="box-diferenciais">
+          <div class="box-single-diferencial">
+            <h2><i class="fa-brands fa-html5"></i></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur sunt nesciunt nemo ullam alias doloremque.
+            </p>
+          </div><!--box-single-diferencial-->
+
+          <div class="box-single-diferencial">
+            <h2><i class="fa-brands fa-css3-alt"></i></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur sunt nesciunt nemo ullam alias doloremque.
+            </p>
+          </div><!--box-single-diferencial-->
+
+          <div class="box-single-diferencial">
+            <h2><i class="fa-brands fa-js"></i></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur sunt nesciunt nemo ullam alias doloremque.
+            </p>
+          </div><!--box-single-diferencial-->
+          <div class="clear"></div>
+        </div><!--box-diferenciais-->
+      </div><!--container-->
+    </section><!--Diferenciais-->
 
     <section id="contato" class="sessao4">
       <div class="container">
@@ -164,10 +199,15 @@
             distinctio aliquid eum molestiae possimus cupiditate unde tempora
             minima, quae est vitae.
           </p>
-          <form>
-            <input type="text" name="nome" placeholder="Nome*" />
-            <input type="text" name="email" placeholder="E-mail*" />
-            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+          <form method="post" action="form.php ">
+            <input required type="text" name="nome" placeholder="Nome*" />
+            <input required type="email" name="email" placeholder="E-mail*" />
+            <input type="text" name="telefone" placeholder="Telefone*" />
+            <textarea
+              required
+              name="mensagem"
+              placeholder="Mensagem"
+            ></textarea>
             <div class="clear"></div>
             <div><input type="submit" value="Enviar" /></div>
           </form>
@@ -194,6 +234,49 @@
     </footer>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4HwZXlusy35b6PjdrfqsDCC_c7_n07l4"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/jquery.ajaxform.js"></script>
+    <script>
+      $(function () {
+        $("form").submit(function () {
+          if (formularioPreenchido) {
+            var form = $("form");
+            $("form").ajaxSubmit({
+              beforSubmit: function () {
+                form.find("input[type=submit]").attr("disabled", "true");
+                form.find("input[type=submit]").animate({ opacity: "0.4" });
+                form.find("input[type=submit]").attr("value", "Carregando");
+              },
+              succes: function () {
+                alert("Formulário foi enviado com sucesso");
+                form.find("input[type=submit]").removeAttr("disabled");
+                form.find("input[type=submit]").animate({ opacity: "1" });
+                form.find("input[type=submit]").attr("value", "Enviar");
+                form[0].reset();
+              },
+            });
+          } else {
+            alert("Campos vazios não são permitidos");
+          }
+          return false;
+        });
+        function formularioPreenchido() {
+          var nome = $(["name=nome"]).val();
+          var email = $("[name=email]").val();
+          var telefone = $("[name=telefone]").val();
+          var mensagem = $("[name=mensagem]").val();
+          if (
+            nome === "" ||
+            email === "" ||
+            telefone === "" ||
+            mensagem === ""
+          ) {
+            return false;
+          } else {
+            return true;
+          }
+        }
+      });
+    </script>
     <script src="js/functions.js"></script>
     <script src="js/menu_responsivo.js"></script>
     <script src="js/menuScroll.js"></script>

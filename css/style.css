@@ -252,13 +252,13 @@ section.sessao1 .container {
   background: white;
 }
 
-.scrollEquipe{
+.scrollEquipe {
   max-width: 600px;
   padding-left: 20px;
   overflow: hidden;
 }
 
-.scroll-wraper{
+.scroll-wraper {
   width: 100%;
 }
 
@@ -356,7 +356,8 @@ section.sessao4 {
   margin-top: 15px;
 }
 
-.form form input[type="text"] {
+.form form input[type="text"],
+.form form input[type="email"] {
   width: 90%;
   max-width: 480px;
   margin-top: 8px;
@@ -422,6 +423,38 @@ section.sessao4 {
   height: 100%;
   background-color: #ffffff;
   border: 5px solid rgb(200, 200, 200);
+}
+
+section.diferenciais {
+  padding: 40px 0;
+}
+
+section.diferenciais > .container > h2 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 300;
+  color: #472563;
+}
+
+.box-diferenciais {
+  margin-top: 40px;
+}
+
+.box-single-diferencial {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+}
+
+.box-single-diferencial h2 {
+  font-size: 55px;
+  text-align: center;
+  color: #472563;
+}
+
+.box-single-diferencial p {
+  font-size: 15px;
+  color: rgb(100, 100, 100);
 }
 
 footer {
@@ -557,6 +590,25 @@ footer p:nth-of-type(2) {
     display: inline-block;
     max-width: none;
     position: relative;
+  }
+
+  section.diferenciais{
+    background: rgb(220, 220, 220);
+  }
+
+  .box-diferenciais {
+    margin-top: 0;
+  }
+
+  .box-single-diferencial {
+    width: 100%;
+    margin-top: 12px;
+    text-align: center;
+  }
+
+  .box-single-diferencial p {
+    display: inline-block;
+    max-width: 400px;
   }
 }
 
